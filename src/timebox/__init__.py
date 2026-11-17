@@ -1,1 +1,1 @@
-"""timebox baseline (single-responsibility pipeline)."""
+"""timebox package (single-responsibility pipeline)."""

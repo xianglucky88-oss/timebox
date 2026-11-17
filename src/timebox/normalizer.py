@@ -1,4 +1,4 @@
-"""单一职责：字段规整/规范化（对记录做单一职责变换：normalizer）。happy-path 规范阶段。"""
+"""单一职责：字段规整/规范化（对记录做单一职责变换：normalizer）。规范阶段。"""
 def process(record):
     rec = dict(record)
     rec["src"] = str(rec.get("src", "")).strip().lower()
